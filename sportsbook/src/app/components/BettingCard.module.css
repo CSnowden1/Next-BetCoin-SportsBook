@@ -1,0 +1,42 @@
+/* components/BettingCard.module.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    width: 300px; /* or any desired width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .betOption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .oddsButton {
+    background-color: #ffcc00;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .oddsButton:hover {
+    opacity: 0.9;
+  }
+  

@@ -1,0 +1,30 @@
+/* components/Hero.module.css */
+.hero {
+    background-image: url('https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/generations/3-4baafc5e-165c-404e-88dc-f9801ec551d1.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .ctaButton {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .ctaButton:hover {
+    background-color: #e6b800;
+  }
+  

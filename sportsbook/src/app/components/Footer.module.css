@@ -1,0 +1,36 @@
+/* components/Footer.module.css */
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .linksSection, .socialMediaSection {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyRight {
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+  

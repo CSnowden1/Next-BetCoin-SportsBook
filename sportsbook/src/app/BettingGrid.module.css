@@ -1,0 +1,29 @@
+/* components/BettingGrid.module.css */
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adjust the space between cards */
+    margin-top: 20px;
+  }
+  
+  .filterButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+  }
+  
+  .filterButton {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .filterButton:hover {
+    background-color: #333;
+  }
+  

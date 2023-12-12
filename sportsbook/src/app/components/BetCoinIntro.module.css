@@ -1,0 +1,24 @@
+/* components/BetCoinIntro.module.css */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .walletButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .walletButton:hover {
+    background-color: #45a049;
+  }
+  
